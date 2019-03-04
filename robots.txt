@@ -1,0 +1,22 @@
+## Enable robots.txt rules for all crawlers
+User-agent: *
+
+## DEVELOPMENT RELATED SETTINGS
+
+## Do not crawl development files and folders: CVS, svn directories and dump files
+Disallow: /CVS
+Disallow: /*.svn$
+Disallow: /*.idea$
+Disallow: /*.sql$
+Disallow: /*.tgz$
+
+## GENERAL SETTINGS
+
+## Do not crawl admin page
+Disallow: /admin/
+
+## Do not crawl common Magento technical folders
+Disallow: /log/
+Disallow: /styles/
+
+

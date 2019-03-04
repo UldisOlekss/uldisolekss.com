@@ -1,0 +1,47 @@
+.rspbry-body-wrapper {
+  .head-wrapper {
+    .title-wrapper {
+      .home-title {
+        font-size: 64px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .home-sub-title {
+        font-size: 32px;
+        text-align: center;
+      }
+      .raspberry-image {
+        position: absolute;
+        z-index: -1;
+        left: calc(50% - 250px);
+        background-size: cover;
+        width: 500px;
+        height: 500px;
+        background-image: url("../images/rspbry.png");
+      }
+    }
+  }
+  .rspbry-content {
+    .rspbry-controls {
+      margin: 19px auto 0 auto;
+      padding-left: 1px;
+      width: 502px;
+      max-height: 482px;
+      overflow: hidden;
+
+      .rspbry-button {
+        margin-right: -3px;
+        margin-bottom: -2px;
+        height: 24px;
+        width: 250px;
+        opacity: 0.6;
+        background-color: red;
+        display: inline-block;
+      }
+    }
+  }
+  .footer-wrapper {
+    margin-top: 150px;
+  }
+}

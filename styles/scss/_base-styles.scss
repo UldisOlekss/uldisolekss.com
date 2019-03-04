@@ -1,0 +1,41 @@
+* {
+  color: $c-black;
+}
+body {
+  margin: 0 auto;
+  background: $c-background;
+  font-family: 'Dosis', sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.homepage-wrapper {
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.upper {
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.header-wrapper,
+.body-wrapper,
+.footer-wrapper {
+  margin: auto;
+}
+
+.hidethis {
+  display: none;
+}
