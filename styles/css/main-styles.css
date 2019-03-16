@@ -128,37 +128,38 @@ li {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
-  background-image: url("../images/uo.jpg");
-  background-size: 95%;
+  background-image: url("../images/uo.png");
+  background-size: 138%;
+  background-position: -46px -73px;
 }
-/* line 17, ../scss/_header.scss */
+/* line 18, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .myname-title {
   font-size: 64px;
   letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
 }
-/* line 23, ../scss/_header.scss */
+/* line 24, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .myname-sub-title {
   font-size: 32px;
   text-align: center;
 }
-/* line 28, ../scss/_header.scss */
+/* line 29, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .home-title {
   margin: 20px;
 }
-/* line 31, ../scss/_header.scss */
+/* line 32, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .home-title span {
   font-size: 32px;
   letter-spacing: 1px;
   font-weight: bold;
   text-align: center;
 }
-/* line 38, ../scss/_header.scss */
+/* line 39, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .home-sub-title {
   margin: 8px;
 }
-/* line 41, ../scss/_header.scss */
+/* line 42, ../scss/_header.scss */
 .body-wrapper .head-wrapper .title-wrapper .home-sub-title span {
   font-size: 24px;
   text-align: center;
