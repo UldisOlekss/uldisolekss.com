@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  color: #232323;
+}
+
+body {
+  font-size: 0;
+  margin: 0 auto;
+  background: #5e7791;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+span {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.homepage-wrapper {
+  overflow: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.hidethis {
+  display: none;
+}
+
+.page-wrapper,
+.main-wrapper {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.nav-bar {
+  min-height: 75px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.nav-item {
+  float: right;
+  border: solid 6px rgba(73, 98, 124, 0.4);
+  margin: 12px;
+  padding: 10px;
+  min-width: 90px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 18px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.nav-item:hover {
+  background: #49627c;
+  cursor: pointer;
+}
+
+.card {
+  width: 440px;
+  padding: 10px;
+  min-height: 200px;
+  display: inline-block;
+}
+
+.heading {
+  margin: 100px 0;
+  margin-left: 200px; 
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 3px;
+  padding: 10px;
+  border-radius: 35px;
+  display: inline-block;
+}
+.logo:hover {
+  background: #83aad2;
+}
+
+.linkedin-icon {
+  width: 100%;
+}
+
+.github-icon {
+  width: 100%;
+}
+
+.name-title {
+  padding-bottom: 6px;
+  font-size: 42px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.name-sub-title {
+  font-size: 20px;
+}
+
+.name-skills-title {
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.name-skills {
+  padding-top: 2px;
+  font-size: 18px;
+}
+
+.content-wrapper h2 {
+  text-align: center;
+  line-height: 1.2em;
+  border-bottom: 1px solid;
+  /*margin: 0px 40px;*/
+  background: #6c88a5;
+  border-radius: 10px 10px 0 0;
+}
+
+.block {
+  min-height: 300px;
+  width: calc(33.33% - 32px);
+  margin: 15px;
+  font-size: 18px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.cert {
+  padding: 10px 60px;
+}
+
+.cert li {
+  padding-bottom: 10px;
+}
