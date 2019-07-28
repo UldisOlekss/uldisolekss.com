@@ -1,3 +1,9 @@
+
+$primary-bg-color: #5e7791;
+$border-color: #516a84;
+$active-color: #83aad2;
+/*$active-border-color: #a1bfde;*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +55,7 @@ body {
   line-height: 1;
   font-size: 0;
   margin: 0 auto;
-  background: #5e7791;
+  background: $primary-bg-color;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -105,26 +111,32 @@ li {
 }
 
 .nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
   min-height: 75px;
-  margin-right: 40px;
-  margin-top: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .nav-item {
   float: right;
-  border: solid 6px rgba(73, 98, 124, 0.4);
-  margin: 12px;
-  padding: 10px;
+  border: solid 6px $border-color;
+  margin: 10px 8px;
+  padding: 5px 8px;
   min-width: 90px;
   text-align: center;
   font-weight: 900;
   font-size: 18px;
-  border-radius: 8px;
+  border-radius: 16px;
   display: inline-block;
+  transition: border 300ms, background-color 300ms;
 
   &:hover {
-    background: #49627c;
     cursor: pointer;
+    background: $active-color;
+  	border-color: $active-color;
+    transition: border 300ms, background-color 300ms;
   }
 }
 
@@ -161,13 +173,14 @@ li {
     height: 100%;
     display: block;
     border-radius: 40px;
-    transition: padding 300ms, margin 300ms;
+    background-color: $primary-bg-color;
+    transition: padding 300ms, margin 300ms, background-color 300ms;
 
   	&:hover {
   	  margin: -10px;
   	  padding: 10px;
-      background: #83aad2;
-      transition: padding 300ms, margin 300ms;
+      background-color: $active-color;
+      transition: padding 300ms, margin 300ms, background-color 300ms;
     }
   }
 }
@@ -202,21 +215,20 @@ li {
 .content-wrapper h2 {
   text-align: center;
   line-height: 1.2em;
-  border-bottom: 1px solid;
-  /*margin: 0px 40px;*/
+  border-bottom: 6px solid $border-color;
   background: #6c88a5;
   border-radius: 10px 10px 0 0;
 }
 
 .block {
   min-height: 300px;
-  width: calc(33.33% - 32px);
+  width: calc(33.33% - 42px);
   margin: 15px;
   font-size: 18px;
   vertical-align: top;
   display: inline-block;
-  border: 1px solid;
-  border-radius: 10px;
+  border: 6px solid $border-color;
+  border-radius: 16px;
 }
 
 .cert {
