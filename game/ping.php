@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST)) {
-	deliver_response("server list", $_POST);
+	deliver_response("ping", $_POST);
 }
 
 function deliver_response($status_message, $data) {

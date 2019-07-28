@@ -1,3 +1,4 @@
+/* line 1, ../sass/main.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,102 +18,121 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 20, ../sass/main.scss */
 article, aside, details, figcaption, figure,
 footer, header, menu, nav, section {
   display: block;
 }
 
-body {
-  line-height: 1;
-}
-
+/* line 25, ../sass/main.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 29, ../sass/main.scss */
 blockquote, q {
   quotes: none;
 }
 
+/* line 33, ../sass/main.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
+/* line 39, ../sass/main.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 44, ../sass/main.scss */
 * {
   color: #232323;
 }
 
+/* line 48, ../sass/main.scss */
 body {
+  line-height: 1;
   font-size: 0;
   margin: 0 auto;
   background: #5e7791;
   font-family: 'Rubik', sans-serif;
 }
 
+/* line 56, ../sass/main.scss */
 a {
   color: black;
   text-decoration: none;
 }
 
+/* line 61, ../sass/main.scss */
 span {
   font-size: 18px;
 }
 
+/* line 65, ../sass/main.scss */
 h1 {
   font-size: 42px;
 }
+
+/* line 68, ../sass/main.scss */
 h2 {
   font-size: 30px;
 }
 
+/* line 72, ../sass/main.scss */
 .homepage-wrapper {
   overflow: hidden;
 }
 
+/* line 76, ../sass/main.scss */
 .center {
   text-align: center;
 }
 
+/* line 80, ../sass/main.scss */
 .bold {
   font-weight: bold;
 }
 
+/* line 84, ../sass/main.scss */
 .upper {
   text-transform: uppercase;
 }
 
+/* line 88, ../sass/main.scss */
 ul {
   padding: 0;
   margin: 0;
 }
 
+/* line 93, ../sass/main.scss */
 li {
   list-style: none;
 }
 
+/* line 97, ../sass/main.scss */
 .hidethis {
   display: none;
 }
 
+/* line 101, ../sass/main.scss */
 .page-wrapper,
 .main-wrapper {
   max-width: 1280px;
   margin: auto;
 }
 
+/* line 107, ../sass/main.scss */
 .nav-bar {
   min-height: 75px;
   margin-right: 40px;
   margin-top: 20px;
 }
 
+/* line 113, ../sass/main.scss */
 .nav-item {
   float: right;
   border: solid 6px rgba(73, 98, 124, 0.4);
@@ -125,12 +145,13 @@ li {
   border-radius: 8px;
   display: inline-block;
 }
-
+/* line 125, ../sass/main.scss */
 .nav-item:hover {
   background: #49627c;
   cursor: pointer;
 }
 
+/* line 133, ../sass/main.scss */
 .card {
   width: 440px;
   padding: 10px;
@@ -138,12 +159,14 @@ li {
   display: inline-block;
 }
 
+/* line 140, ../sass/main.scss */
 .heading {
   margin: 100px 0;
-  margin-left: 200px; 
+  margin-left: 200px;
   display: flex;
 }
 
+/* line 146, ../sass/main.scss */
 .logo {
   width: 50px;
   height: 50px;
@@ -152,19 +175,34 @@ li {
   padding: 10px;
   border-radius: 35px;
   display: inline-block;
+  /*&:hover {
+    background: #83aad2;
+  }*/
 }
-.logo:hover {
-  background: #83aad2;
-}
-
-.linkedin-icon {
+/* line 159, ../sass/main.scss */
+.logo a {
   width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 40px;
+  transition: padding 300ms, margin 300ms;
+}
+/* line 166, ../sass/main.scss */
+.logo a:hover {
+  margin: -10px;
+  padding: 10px;
+  background: #83aad2;
+  transition: padding 300ms, margin 300ms;
 }
 
+/* line 175, ../sass/main.scss */
+.resume-icon,
+.linkedin-icon,
 .github-icon {
   width: 100%;
 }
 
+/* line 181, ../sass/main.scss */
 .name-title {
   padding-bottom: 6px;
   font-size: 42px;
@@ -172,20 +210,24 @@ li {
   font-weight: bold;
 }
 
+/* line 188, ../sass/main.scss */
 .name-sub-title {
   font-size: 20px;
 }
 
+/* line 192, ../sass/main.scss */
 .name-skills-title {
   padding-top: 50px;
   font-size: 20px;
 }
 
+/* line 197, ../sass/main.scss */
 .name-skills {
   padding-top: 2px;
   font-size: 18px;
 }
 
+/* line 202, ../sass/main.scss */
 .content-wrapper h2 {
   text-align: center;
   line-height: 1.2em;
@@ -195,6 +237,7 @@ li {
   border-radius: 10px 10px 0 0;
 }
 
+/* line 211, ../sass/main.scss */
 .block {
   min-height: 300px;
   width: calc(33.33% - 32px);
@@ -206,10 +249,11 @@ li {
   border-radius: 10px;
 }
 
+/* line 222, ../sass/main.scss */
 .cert {
   padding: 10px 60px;
 }
-
+/* line 225, ../sass/main.scss */
 .cert li {
   padding-bottom: 10px;
 }
