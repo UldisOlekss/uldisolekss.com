@@ -147,6 +147,10 @@ li {
   padding: 10px;
   min-height: 200px;
   display: inline-block;
+
+  &.resume-card {
+  	padding-left: 100px;
+  }
 }
 
 .heading {
@@ -163,10 +167,6 @@ li {
   padding: 10px;
   border-radius: 35px;
   display: inline-block;
-
-  /*&:hover {
-    background: #83aad2;
-  }*/
 
   a {
 	width: 100%;
@@ -209,7 +209,7 @@ li {
 
 .name-skills {
   padding-top: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .content-wrapper h2 {
@@ -232,10 +232,14 @@ li {
 }
 
 .cert {
-  padding: 10px 60px;
+  padding: 10px 45px;
   
   li {
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 
+.underline {
+	border-bottom: 1px solid $border-color;
+}

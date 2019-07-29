@@ -165,15 +165,19 @@ li {
   min-height: 200px;
   display: inline-block;
 }
+/* line 151, ../sass/main.scss */
+.card.resume-card {
+  padding-left: 100px;
+}
 
-/* line 152, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .heading {
   margin: 170px 0;
   margin-left: 200px;
   display: flex;
 }
 
-/* line 158, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .logo {
   width: 50px;
   height: 50px;
@@ -182,9 +186,6 @@ li {
   padding: 10px;
   border-radius: 35px;
   display: inline-block;
-  /*&:hover {
-    background: #83aad2;
-  }*/
 }
 /* line 171, ../sass/main.scss */
 .logo a {
@@ -232,7 +233,7 @@ li {
 /* line 210, ../sass/main.scss */
 .name-skills {
   padding-top: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* line 215, ../sass/main.scss */
@@ -258,9 +259,15 @@ li {
 
 /* line 234, ../sass/main.scss */
 .cert {
-  padding: 10px 60px;
+  padding: 10px 45px;
 }
 /* line 237, ../sass/main.scss */
 .cert li {
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 243, ../sass/main.scss */
+.underline {
+  border-bottom: 1px solid #516a84;
 }
